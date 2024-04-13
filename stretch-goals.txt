@@ -1,0 +1,9 @@
+In addition to the ones in README...
+
+save us all message temporarily after start button pushed
+
+Randomly change color/shape of demon doing all three phases
+
+Add a poof effect when demon is destroyed
+
+Have a keyboard version where number key matches the transporter

@@ -1,0 +1,34 @@
+
+
+Next steps:
+
+UI:
+
+_X_ Make layout with images and styled containers according to wireframe
+
+
+___ start game clicked; calls attack function
+
+
+__ Gameplay actions to create in JS:
+
+__ Find different size images of sprite for demon
+
+__ Demons chage fron one form to another three times ... each time lasts 1.5 second
+
+__ After 30 seconds , it gets harder with more and more transporters getting a demon ... new one added random number of seconds between 5 and 20
+
+__ Click on start begins process with first small demon appearing in a random transporter
+
+__ Each demon sprite changes to larger one after programmed times
+
+__ The demon must be clicked on when the largest sprite appears
+
+__ After the programmed amount of time and largest sprite is still there, game is over and the user will see the correct prompt about demon getting loose with the button to restart the game
+
+__ If the player clicks on any size of demon, it will disappear
+
+__ If no demon has totally gotten big and not been clicked on in time and timer is out, game is over and the user has saved us all, with prompt about restarting game
+
+
+

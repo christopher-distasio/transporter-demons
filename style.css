@@ -1,0 +1,107 @@
+/* 
+* {
+    background-color: aqua;
+} */
+
+* {
+    overflow: hidden;
+}
+
+body {
+    /* position: absolute; */
+    background-image: url('./assets/images/moon-base-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Background image by Steve Bidmead from Pixabay */
+
+
+
+#top-grid-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 48%;
+    width: 96%;
+}
+
+#bottom-grid-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 3%;
+    bottom: 0;
+    height: 48%;
+    width: 98%;
+    /* border: 3px white solid; */
+    grid-template-columns: auto auto auto auto auto;
+}
+
+/* these items below are important to refactor with an attribute selector after MVP is done because of all the needlessly repeated code, plus I changed from grid to flex. */
+
+#grid-item-1, #grid-item-2, #grid-item-3 {
+    display: flex;
+    color: white;
+    width: 33%;
+    /* border: 1px white solid; */
+
+}
+
+ #grid-item-4, #grid-item-5, #grid-item-6, #grid-item-7, #grid-item-8 {
+    display: flex;
+    /* border: 3px white solid; */
+    background-image: url('./assets/images/transporter-unit.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 19%;
+}
+
+
+
+
+#bottom-grid-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 3%;
+    bottom: 0;
+    height: 48%;
+    width: 98%;
+    /* border: 3px white solid; */
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.first-demon {
+    
+}    
+
+
+
+
+
+
+
+
+
+/* .top-overlay {
+    position: absolute;
+    background-color: red;
+    top: 0;
+    left: 0;
+
+    z-index: 1;
+}    */
+
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .item {
+    border: 2px solid red;
+    padding: 10px;
+  } */
+  
